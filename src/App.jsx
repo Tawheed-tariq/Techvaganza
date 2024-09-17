@@ -6,6 +6,7 @@ import './App.css'
 import Contact from "./pages/contact/Contact";
 import Schedule from "./pages/schedule/Schedule";
 import ScrollToTop from "./Components/ScrollToTop";
+import SelectEvents from "./pages/Select events/SelectEvents";
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/events/*" element={<Events />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/select-events" element={<SelectEvents />} />
         </Routes>
       </Router>
     </>
