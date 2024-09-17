@@ -10,7 +10,7 @@ export default function Login({handleLogin, setUserId, userId}) {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center px-4 md:px-8 py-8">
-          <h2 className="text-primary font-figtree font-bold text-xl md:text-2xl mb-4">
+          <h2 className="font-semibold text-gray-600 font-figtree textShadow-sm text-xl md:text-2xl leading-normal mb-4">
             Please Enter Your User ID
           </h2>
           <input
@@ -22,7 +22,7 @@ export default function Login({handleLogin, setUserId, userId}) {
           />
           <button
             onClick={handleLogin}
-            className="bg-primary text-secondary font-semibold py-4 px-10 font-kodeMono"
+            className="px-6 md:px-8 py-2 ShadowBlur text-base md:text-xl rounded-md font-semibold text-gray-800 bg-primary border border-primary focus:outline-none text-center"
           >
             Login
           </button>

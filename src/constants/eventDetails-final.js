@@ -1067,3 +1067,6 @@ export const day1Events = [...day1Competitions, ...day1Talks, ...day1Gamezone];
 
 // Combine all day 2 events
 export const day2Events = [...day2Competitions, ...day2Talks, ...day2Gamezone];
+
+
+export const allEvents = [...day1Events, ...day2Events];
