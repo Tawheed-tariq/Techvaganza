@@ -6,8 +6,7 @@ import Contact from "./pages/contact/Contact";
 import Schedule from "./pages/schedule/Schedule";
 import ScrollToTop from "./Components/ScrollToTop";
 import Register from "./pages/Register/Register";
-
-
+import ScrapeComponent from "./pages/scrape/ScrapeComponent";
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
           <Route path="/events/*" element={<Events />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/scrape" element={<ScrapeComponent />} />
         </Routes>
       </Router>
     </>
