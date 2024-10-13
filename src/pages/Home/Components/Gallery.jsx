@@ -37,7 +37,7 @@ const Gallery = () => {
   return (
     <div className="relative py-10">
       <div className='px-4 md:px-[140px] lg:px-[160px] lg2:px-[200px] xl:px-[280px] xl2:px-[320px]'>
-        <p className="text-lg font-semibold font-kodeMono text-gray-400">NIT SRINAGAR</p>
+        <p className="text-lg font-semibold font-kodeMono text-gray-400">Techvaganza 2024</p>
         <h2 className="text-5xl font-bold font-figtree uppercase overflow-hidden text-white">Photo Gallery</h2>
       </div>
       <div

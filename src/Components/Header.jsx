@@ -31,17 +31,17 @@ const Header = () => {
       >
         <div className="flex flex-row justify-between items-center container mx-auto ">
           <Link to="/">
-            <img src="/common/logo.png" className="h-16 md:h-24" alt="Logo" />
+            <img src="/common/logo.png" className="h-20 md:h-28" alt="Logo" />
           </Link>
 
           {/* Hamburger Button */}
-          <div className="lg:hidden flex items-center">
+          {/* <div className="lg:hidden flex items-center">
             <button className="text-white text-2xl" onClick={toggleSidebar}>
               {isSidebarOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
             </button>
-          </div>
+          </div> */}
 
-          <div className="hidden lg:flex font-semibold items-center md:space-x-8 large:space-x-16">
+          {/* <div className="hidden lg:flex font-semibold items-center md:space-x-8 large:space-x-16">
             <Link
               to="/"
               className="text-white hover:text-secondary underline-animate text-2xl relative inline-block"
@@ -92,16 +92,16 @@ const Header = () => {
             >
               Contact
             </Link>
-          </div>
+          </div> */}
         </div>
       </header>
-      <div className="lg:hidden">
+      {/* <div className="lg:hidden">
         <Sidebar
           className="lg:hidden"
           isOpen={isSidebarOpen}
           onClose={toggleSidebar}
         />
-      </div>
+      </div> */}
     </>
   );
 };
