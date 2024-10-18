@@ -84,28 +84,34 @@ export const demoEvents = [
 
 export const images = [
     { 
-      src: '/slider-1.jpg', 
+      src: '/inaugral-ceremony.jpg', 
       alt: 'Slider 1', 
-      title: 'Vihang Performance', 
-      description: 'Main Stage' 
+      title: 'Inaugral Ceremony', 
+      description: 'Techvaganza 2024 - Inaugral Ceremony' 
     },
     { 
-      src: '/slider-2.jpg', 
+      src: '/main-stage.jpg', 
       alt: 'Slider 2', 
-      title: 'Yawar Abdaal', 
-      description: 'Main Stage' 
+      title: 'Main Stage', 
+      description: '' 
     },
     { 
-      src: '/slider-3.jpg', 
+      src: '/line-follower.jpg', 
       alt: 'Slider 3', 
-      title: 'Group Photo', 
-      description: 'Organizing team' 
+      title: 'Line Follower', 
+      description: 'Line Follower competition' 
     },
     { 
-      src: '/slider-4.jpg', 
+      src: '/vihang.jpg', 
       alt: 'Slider 3', 
-      title: 'Yawar Abdaal', 
-      description: 'Main Stage' 
+      title: 'Vihang', 
+      description: 'Vihang Band NIT Srinagar' 
     },
+    { 
+      src: '/gsl-mk3.jpg', 
+      alt: 'Slider 3', 
+      title: 'GSLV-MK3', 
+      description: '' 
+    }
   ];
   
